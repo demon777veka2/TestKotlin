@@ -1,5 +1,5 @@
 .git/*
+.iml/*
 .idea/*
 out/*
-Kotlin_new.iml
 src/.idea/*
