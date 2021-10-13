@@ -7,10 +7,6 @@ fun main(args: Array<String>) {
         args
     }
 
-    println()
-    println("Задание 5")
-    println("Результат:")
-
     val mapCollection = list.sorted().groupingBy { it }.eachCount()
     //Сортировка коллекции по количеству повторений на уменьшение и алфавиту
     val result = mapCollection.toList().sortedByDescending { (_, value) -> value }.toMap()
