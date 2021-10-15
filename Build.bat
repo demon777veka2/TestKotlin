@@ -1,1 +1,0 @@
-for /l %%i in (1,1,5) do kotlinc src/task%%i.kt -include-runtime -d task%%i.jar
