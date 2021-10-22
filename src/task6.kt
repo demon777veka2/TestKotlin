@@ -6,10 +6,10 @@ fun main(args: Array<String>) {
     }
 
     show(text)
-  }
+}
 
 
-fun show(text: Array<String>?){
+fun show(text: Array<String>?) {
     if (text != null) {
         text.sorted().groupingBy { it }.eachCount()
                 .toList().sortedByDescending { (_, value) -> value }.toMap()
