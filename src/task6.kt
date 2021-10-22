@@ -5,7 +5,15 @@ fun main(args: Array<String>) {
         args
     }
 
-    text.sorted().groupingBy { it }.eachCount()
-            .toList().sortedByDescending { (_, value) -> value }.toMap()
-            .forEach { println(it.key + " " + it.value) }
+    show(text)
+  }
+
+
+fun show(text: Array<String>?){
+    if (text != null) {
+        text.sorted().groupingBy { it }.eachCount()
+                .toList().sortedByDescending { (_, value) -> value }.toMap()
+                .forEach { println(it.key + " " + it.value) }
+    }
 }
+
