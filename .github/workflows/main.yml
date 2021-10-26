@@ -19,4 +19,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Test TEST.sh
-        run: ./TEST.sh
+        run: sh ./TEST.sh
