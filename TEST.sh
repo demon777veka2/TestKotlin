@@ -1,4 +1,4 @@
-declare -A arrayLine
+sdeclare -A arrayLine
 declare -A array
 declare -A arrayTask
 
@@ -51,4 +51,3 @@ echo Koli4estvo testov vipolnenih korrektno: $koll_true, nekorrektno: $koll_fals
 if [ $koll_false != 0 ]; then
   exit 1
 fi
-read
