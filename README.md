@@ -1,3 +1,8 @@
+![GitHub language count](https://img.shields.io/github/languages/count/demon777veka2/TestKotlin)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/demon777veka2/TestKotlin)
+![GitHub top language](https://img.shields.io/github/languages/top/demon777veka2/TestKotlin)
+
+
 # Проект TestKotlin<br>
 Программа разбивает ваш текст на слова, и работает с ним.
 1. задание: программа разбивает ваш текст на слова.
