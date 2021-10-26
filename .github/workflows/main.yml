@@ -19,4 +19,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Test BUILD
-        run: ./BUILD.sh
+        run: https://github.com/demon777veka2/TestKotlin/BUILD.sh
